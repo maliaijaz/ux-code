@@ -1,0 +1,125 @@
+/* SIDEBAR TEXT*/
+
+.body {
+	font-family: "HelveticaNeue", Helvetica, Arial, serif;
+
+}
+
+.sidebar-nav li a {
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue", Helvetica, Arial, serif;
+    -moz-transition: color .2s ease-in;
+	-o-transition:color .2s ease-in;
+	-webkit-transition:color .2s ease-in;
+}
+
+.sidebar-nav li a:hover {
+	color: #e6e6e6;
+}
+
+/*END SIDEBAR TEXT*/
+
+/*Video*/
+
+
+/*Video*/
+
+/*BLOG POSTs*/
+
+@media screen and (min-width: 768px){
+	#page-content-wrapper {
+    	padding-left: 75px;
+	}
+
+	responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+	    max-width: 85%;
+		}
+
+	.img-responsive {
+		max-width: 85%;
+	}
+
+	.singleSound {
+    max-width: 85%;
+	}
+
+	/*.soundcloud-width {
+		max-width: 85%;
+	}*/
+
+	/*hr {
+		max-width: 85%;
+	}*/
+}
+
+.blog-header {
+	color: black;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue", Helvetica, Arial, serif;
+}
+
+/*.image-blog-center {
+	text-align: center;
+}*/
+
+/*END BLOG POSTs*/
+
+
+
+/*BUTTON STYLES*/
+
+.btn-container {
+	padding-top: 10px;
+
+}
+
+@media screen and (min-width: 768px) {
+	.btn-container {
+		display: none;
+	}
+	.full-logo { /* appears on MOBILE ONLY */
+		display: none;
+	}
+}
+
+.empty-space{
+	padding-top: 30px;
+}
+
+.full-logo {
+	float: right;
+}
+
+
+/*END BUTTON STYLES*/
+
+
+/*SIDEBAR styless*/
+
+div#sidebar-wrapper {
+    background-color: white;
+}
+
+.below-logo {
+	padding-top: 100px;
+	padding-left: 50px;
+}
+/*End Sidebar Styles*/
+
+/*Image Styles*/
+/*
+img {
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}*/
+
+
+/*End Image Styles*/
